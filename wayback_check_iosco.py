@@ -9,6 +9,7 @@ import os
 bucket_name = "iosco-nalini"
 iosco_prefix = "original_csv/"
 wayback_prefix = "wayback/"
+ping_prefix = "ping_results/"
 timestamp = datetime.now().strftime("%Y-%m-%d")
 output_filename = f"wayback_results_{timestamp}.csv"
 local_output_path = f"/tmp/{output_filename}"
@@ -78,7 +79,24 @@ s3.upload_file(local_output_path, bucket_name, f"{wayback_prefix}{output_filenam
 os.remove(local_output_path)
 
 # --- Summary ---
-print("✅ Wayback check complete")
-print(f"🔍 Total URLs Checked: {len(url_set)}")
-print(f"📦 Archived URLs: {result_df['Archived'].sum()}")
-print(f"📁 S3 Output: s3://{bucket_name}/{wayback_prefix}{output_filename}")
+print(" Wayback check complete")
+print(f" Total URLs Checked: {len(url_set)}")
+print(f" Archived URLs: {result_df['Archived'].sum()}")
+print(f" S3 Output: s3://{bucket_name}/{wayback_prefix}{output_filename}")
+
+# --- Load latest ping results and display status breakdown ---
+def display_ping_summary():
+    ping_file = get_latest_csv(ping_prefix)
+    if not ping_file:
+        print("No ping results found.")
+        return
+    ping_df = pd.read_csv(StringIO(s3.get_object(Bucket=bucket_name, Key=ping_file)['Body'].read().decode('utf-8')))
+    status_counts = ping_df['Status'].value_counts().to_dict()
+    print("\n Website Availability Report (Live Ping)")
+    print(f" Alive: {status_counts.get('Alive', 0)}")
+    print(f" Not Alive: {status_counts.get('Not Alive', 0)}")
+    for key in status_counts:
+        if key.startswith("Status"):
+            print(f"{key}: {status_counts[key]}")
+
+display_ping_summary()

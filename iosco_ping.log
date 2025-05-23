@@ -1,0 +1,41 @@
+ Daily ping check complete and uploaded to S3.
+ Daily ping check complete and uploaded to S3.
+ Daily ping check complete and uploaded to S3.
+ Daily ping check complete and uploaded to S3.
+⬇ Downloading latest file: original_csv/original_iosco_2025-05-10.csv
+⬆ Uploading ping results to S3: ping_results/ping_results_2025-05-10.csv
+✅ Done: ploaded to s3://iosco-nalini/ping_results/ping_results_2025-05-10.csv
+⬇ Downloading latest file: original_csv/original_iosco_2025-05-10.csv
+⬆ Uploading ping results to S3: ping_results/ping_results_2025-05-11.csv
+✅ Done: ploaded to s3://iosco-nalini/ping_results/ping_results_2025-05-11.csv
+⬇ Downloading latest file: original_csv/original_iosco_2025-05-10.csv
+⬆ Uploading ping results to S3: ping_results/ping_results_2025-05-12.csv
+✅ Done: ploaded to s3://iosco-nalini/ping_results/ping_results_2025-05-12.csv
+⬇ Downloading latest file: original_csv/original_iosco_2025-05-10.csv
+⬆ Uploading ping results to S3: ping_results/ping_results_2025-05-13.csv
+✅ Done: ploaded to s3://iosco-nalini/ping_results/ping_results_2025-05-13.csv
+⬇ Downloading latest file: original_csv/original_iosco_2025-05-10.csv
+⬆ Uploading ping results to S3: ping_results/ping_results_2025-05-14.csv
+✅ Done: ploaded to s3://iosco-nalini/ping_results/ping_results_2025-05-14.csv
+⬇ Downloading latest file: original_csv/original_iosco_2025-05-14.csv
+⬆ Uploading ping results to S3: ping_results/ping_results_2025-05-15.csv
+✅ Done: ploaded to s3://iosco-nalini/ping_results/ping_results_2025-05-15.csv
+⬇ Downloading latest file: original_csv/original_iosco_2025-05-14.csv
+⬆ Uploading ping results to S3: ping_results/ping_results_2025-05-16.csv
+✅ Done: ploaded to s3://iosco-nalini/ping_results/ping_results_2025-05-16.csv
+⬇ Downloading latest file: original_csv/original_iosco_2025-05-14.csv
+⬆ Uploading ping results to S3: ping_results/ping_results_2025-05-17.csv
+✅ Done: ploaded to s3://iosco-nalini/ping_results/ping_results_2025-05-17.csv
+⬇ Downloading latest file: original_csv/original_iosco_2025-05-14.csv
+⬆ Uploading ping results to S3: ping_results/ping_results_2025-05-18.csv
+✅ Done: ploaded to s3://iosco-nalini/ping_results/ping_results_2025-05-18.csv
+⬇ Downloading latest file: original_csv/original_iosco_2025-05-14.csv
+⬆ Uploading ping results to S3: ping_results/ping_results_2025-05-19.csv
+✅ Done: ploaded to s3://iosco-nalini/ping_results/ping_results_2025-05-19.csv
+⬇ Downloading latest file: original_csv/original_iosco_2025-05-14.csv
+⬆ Uploading ping results to S3: ping_results/ping_results_2025-05-20.csv
+✅ Done: ploaded to s3://iosco-nalini/ping_results/ping_results_2025-05-20.csv
+Success: 577 cleaned URLs uploaded to 'urls/', original CSV uploaded to 'original_csv/' in bucket 'iosco-nalini'.
+⬇ Downloading latest file: original_csv/original_iosco_2025-05-21.csv
+⬆ Uploading ping results to S3: ping_results/ping_results_2025-05-22.csv
+ Done: ploaded to s3://iosco-nalini/ping_results/ping_results_2025-05-22.csv

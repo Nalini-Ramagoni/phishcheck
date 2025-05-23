@@ -1,0 +1,3 @@
+ Success: 362 URLs extracted and uploaded to S3.
+Success: 509 cleaned URLs uploaded to 'urls/', original CSV uploaded to 'original_csv/' in bucket 'iosco-nalini'.
+Success: 577 cleaned URLs uploaded to 'urls/', original CSV uploaded to 'original_csv/' in bucket 'iosco-nalini'.

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Statistics for {{ url }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #fff; }
+        .container { display: flex; flex-wrap: wrap; justify-content: center; margin: 30px; }
+        .graph-card {
+            background: #fff;
+            border-radius: 28px;
+            box-shadow: 0 8px 36px rgba(40,40,70,0.17), 0 1.5px 3.5px rgba(0,0,0,0.05);
+            transition: transform 0.18s cubic-bezier(.4,2.3,.3,1), box-shadow 0.16s;
+            padding: 38px 30px 26px 30px;
+            margin-bottom: 20px;
+            margin-right: 38px;
+            min-width: 400px;
+            max-width: 670px;
+        }
+        .graph-card:hover {
+            transform: translateY(-9px) scale(1.025);
+            box-shadow: 0 18px 56px rgba(0,0,0,0.19), 0 3.5px 9px rgba(30,60,180,0.07);
+        }
+        .main-url { font-size: 2.8em; font-weight: 700; margin-bottom: 25px; }
+        .flag-list { font-size: 1.7em; line-height: 1.5; margin-bottom: 20px; }
+        .flag-list span { font-weight: 600; }
+        .status { font-size: 1.45em; margin: 25px 0 10px 0; }
+        .wayback { font-size: 1.18em; margin-bottom: 35px; }
+        .download-btn {
+            display: block;
+            margin: 38px auto 0 auto;
+            background: #000;
+            color: #e00;
+            border: none;
+            border-radius: 28px;
+            padding: 23px 53px;
+            font-size: 2.1em;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 3px 16px rgba(0,0,0,0.08);
+            transition: background 0.17s, color 0.17s;
+            text-align: center;
+            text-decoration: none;
+        }
+        .download-btn:disabled,
+        .download-btn.disabled {
+            background: #bbb;
+            color: #444;
+            cursor: not-allowed;
+        }
+        .info-box { flex: 1 1 340px; min-width: 280px; }
+        @media (max-width: 900px) {
+            .container { flex-direction: column; align-items: center; }
+            .graph-card, .info-box { margin-right: 0; min-width: 250px; }
+            .main-url { font-size: 2.1em; }
+        }
+
+        .header { background: #0A2A4D; color: white; font-size: 2em; padding: 1em; margin-bottom: 1.5em; }
+    </style>
+</head>
+<body>
+<div class="header">Website analysis</div>
+    <div class="container">
+        <!-- Floating Graph Card -->
+        <div class="graph-card">
+            <div class="main-url">{{ url }}</div>
+            <img src="data:image/png;base64,{{ img_b64 }}" style="width: 100%; max-width: 650px; border: 0; margin-bottom: 20px;">
+        </div>
+        <!-- Flags & Info -->
+        <div class="info-box">
+            <div class="flag-list">
+                <span>IOSCO :</span> YES<br>
+                <span>FCA UK :</span> {{ fca_flag }}<br>
+                <span>AbuseIPDB :</span> {{ abuseipdb_flag }}<br>
+            </div>
+{% if mirror_exists %}
+    <a href="{{ url_for('download_mirror', url_hash=hash_md5(url), url=url) }}" class="btn btn-success" target="_blank">
+        Download Mirror (ZIP)
+    </a>
+{% else %}
+    <button class="btn btn-secondary" disabled>Download Mirror (ZIP not available)</button>
+{% endif %}
+
+        </div>
+    </div>
+    <div class="container" style="flex-direction: column; align-items: flex-start; max-width: 900px;">
+        <div class="status">
+            <b>Current Status:</b>
+            {% if current_status %}
+                <span style="color:{% if current_status == 'UP' %}green{% else %}red{% endif %}; font-weight:bold;">
+                    {{ current_status }}
+                </span>
+            {% else %}
+                <span style="color:gray;">Unknown</span>
+            {% endif %}
+        </div>
+        <div class="wayback">
+            <b>Wayback link:</b><br>
+            <a href="https://web.archive.org/web/{{ url | replace('https://', '') | replace('http://', '') }}" target="_blank" style="color:#000; text-decoration: underline;">
+                https://web.archive.org/web/{{ url | replace('https://', '') | replace('http://', '') }}
+            </a>
+        </div>
+    </div>
+</body>
+</html>

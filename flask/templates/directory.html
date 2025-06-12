@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scam Directory</title>
+</head>
+<body>
+    <h1> Scam URL Directory</h1>
+    <ul>
+        {% for url in urls %}
+            <li><a href="{{ url }}" target="_blank">{{ url }}</a></li>
+        {% endfor %}
+    </ul>
+    <p>Showing latest scam links pulled from verified regulator feeds.</p>
+</body>
+</html>

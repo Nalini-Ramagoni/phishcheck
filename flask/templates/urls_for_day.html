@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pinged URLs for {{ date }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .header { background: #0A2A4D; color: white; font-size: 2em; padding: 1em; margin-bottom: 1.5em; }
+        .url-list { width: 60%; margin: 2em auto; }
+        .url-list h2 { text-align: center; }
+        .url-list ol { font-size: 1.2em; }
+        .url-list li { margin: 0.5em 0; }
+        a.url-link { color: #1967d2; text-decoration: underline; }
+        .back-btn { display: block; margin: 1em auto; background: #0A2A4D; color: #fff; border: none; border-radius: 0.3em; padding: 0.7em 2em; font-size: 1em; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="header">Pinged URLs for {{ date }}</div>
+    <div class="url-list">
+        <button class="back-btn" onclick="window.history.back();">&larr; Back to Calendar</button>
+        <h2>List of URLs ({{ urls|length }})</h2>
+        <ol>
+            {% for url in urls %}
+                <li><a class="url-link" href="{{ url }}" target="_blank">{{ url }}</a></li>
+            {% endfor %}
+        </ol>
+        {% if urls|length == 0 %}
+            <p style="color: red; text-align: center;">No URLs found for this date.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

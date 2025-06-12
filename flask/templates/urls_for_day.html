@@ -20,7 +20,13 @@
         <h2>List of URLs ({{ urls|length }})</h2>
         <ol>
             {% for url in urls %}
-                <li><a class="url-link" href="{{ url }}" target="_blank">{{ url }}</a></li>
+                <li>
+  <a class="url-link"
+     href="{{ url_for('url_stats', url_hash=(url|hash_md5)) }}?url={{ url|urlencode }}">
+     {{ url }}
+  </a>
+</li>
+
             {% endfor %}
         </ol>
         {% if urls|length == 0 %}

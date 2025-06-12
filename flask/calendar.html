@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Financial fraud website analysis</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .header {
+            background: #0A2A4D;
+            color: white;
+            font-size: 2em;
+            padding: 1em;
+            margin-bottom: 1.5em;
+            text-align: left;
+        }
+        .month-banner {
+            font-size: 1.4em;
+            text-align: center;
+            margin-bottom: 0.5em;
+        }
+        table.calendar { border-collapse: collapse; margin: auto; }
+        .calendar th, .calendar td {
+            border: 2px solid #222;
+            width: 60px; height: 40px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .calendar th { background: #37B6D1; color: #fff; }
+        .calendar td { background: #fff; }
+        .calendar td.empty { background: #e9e9e9; }
+        .calendar td.filled { background: #d0f0d0; font-weight: bold; }
+        .calendar td.today { background: #FFE066; }
+        .calendar td a { text-decoration: none; color: #222; display: block; width: 100%; height: 100%; }
+        .arrow-row { text-align: center; }
+        .arrow-btn {
+            font-size: 2em;
+            padding: 0.2em 1em;
+            margin: 0.5em;
+            background: #0A2A4D;
+            color: #fff;
+            border: none;
+            border-radius: 0.3em;
+            opacity: 1.0;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .arrow-btn.disabled {
+            background: #aaa;
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Financial fraud website analysis</div>
+    <div class="month-banner">{{ month_label }}</div>
+    {% if calendar and week_days %}
+    <table class="calendar">
+        <tr>
+            {% for wd in week_days %}
+                <th>{{ wd }}</th>
+            {% endfor %}
+        </tr>
+        {% for week in calendar %}
+        <tr>
+            {% for day in week %}
+                {% if day %}
+                    {% if day in valid_days %}
+                        <td class="filled{% if day == (now().date()) %} today{% endif %}">
+                            <a href="{{ url_for('day_view', date_str=day.strftime('%Y-%m-%d')) }}">{{ day.day }}</a>
+                        </td>
+                    {% else %}
+                        <td class="empty"></td>
+                    {% endif %}
+                {% else %}
+                    <td class="empty"></td>
+                {% endif %}
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+    <div class="arrow-row">
+        {% if left_enabled %}
+            <a href="{{ url_for('index') }}?month={{ "%04d-%02d"|format(left_month[0], left_month[1]) }}">
+                <button class="arrow-btn">&#8592;</button>
+            </a>
+        {% else %}
+            <button class="arrow-btn disabled" disabled>&#8592;</button>
+        {% endif %}
+        &nbsp;&nbsp;
+        {% if right_enabled %}
+            <a href="{{ url_for('index') }}?month={{ "%04d-%02d"|format(right_month[0], right_month[1]) }}">
+                <button class="arrow-btn">&#8594;</button>
+            </a>
+        {% else %}
+            <button class="arrow-btn disabled" disabled>&#8594;</button>
+        {% endif %}
+    </div>
+    {% else %}
+    <p style="text-align:center;font-size:1.2em;">No ping result dates found in S3 bucket.</p>
+    {% endif %}
+</body>
+</html>

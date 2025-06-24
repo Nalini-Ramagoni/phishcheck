@@ -1,0 +1,43 @@
+1. In the Keyword based content scan, the keywords are matched with each file at once instead of searching for a single word throughout the set of files and folders. We are using this method because, scanning for a single word through the entire set of files takes very long to complete.
+We can easily do "custom sort" in excel for this
+
+Drawback, It scans through the "fullanalysis.py" file too which has the master keyword list :lol
+
+2. JS file flagging is based on below keywords. Explanation is also given.
+i. eval(
+What it does: Executes a string as JavaScript code at runtime.
+Why it’s risky: Heavily abused in obfuscated malware, phishing, and drive-by attacks because it can dynamically run arbitrary code, making static analysis much harder.
+
+ii. document.write
+What it does: Writes HTML or text directly to the web page, often used to inject new scripts or content.
+Why it’s risky: Attackers use it to insert malicious code (including scripts from remote servers) into the DOM after the initial page load.
+
+iii. setTimeout & setInterval
+What they do: Schedule code to run after a delay (setTimeout) or repeatedly (setInterval).
+Why they’re risky: Often used to delay malicious code execution (e.g., to avoid detection), or repeatedly poll/exfiltrate data.
+
+iv. Function(
+What it does: Creates a new Function object from a string (like eval).
+Why it’s risky: Can dynamically generate and execute code, making it a favorite for obfuscated or self-modifying scripts.
+
+v. window.open
+What it does: Opens a new browser window or tab.
+Why it’s risky: Used for malicious redirects, pop-up phishing pages, or to open drive-by download pages without user consent.
+
+vi. XMLHttpRequest
+What it does: Performs HTTP requests from JavaScript (classic AJAX).
+Why it’s risky: Can be used to send stolen data (like credentials or session info) to an attacker-controlled server, or for command & control.
+
+vii. fetch(
+What it does: Modern replacement for XMLHttpRequest—used to fetch resources from the network.
+Why it’s risky: Used for the same reasons as above: data exfiltration, C2, or dynamic script loading.
+
+viii. atob( and btoa(
+What they do: Encode/decode data in base64.
+Why they’re risky: Used in obfuscation—malicious payloads are often base64-encoded and decoded at runtime, making detection harder.
+
+3. What exactly are we doing in image analysis. Why ?
+We are dedicating images a separate function because malwares and executables can be written into image, video and audio files. Videa and audio files generally occupy more space than image files. So, it is hard to detect manually. But, if an image is abnormally large in size, it is easy to suspect and check for it. Moreover, steganographic analysis cannot be done through code easily. It needs special techniques and tools to analyse such as LSB analysis etc... So, we are displaying a detailed analysis of image type, size and it's following paths are also displayed in an excel format.
+
+
+

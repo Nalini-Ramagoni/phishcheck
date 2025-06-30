@@ -592,6 +592,96 @@ def generate_html_dashboard(analysis_dir, output_html="analysis_dashboard.html")
         f.write(dashboard)
     print(f"HTML dashboard generated: {outpath}")
 
+
+def folder_analysis_httrack(root_folder, analysis_dir):
+    """
+    Analyzes HTTrack mirrors:
+    - Locates project folder inside root_folder
+    - Lists its immediate subfolders (each mirror)
+    - Counts empty vs non-empty mirrors
+    - Saves per-folder details to folder_analysis.csv
+    - Saves summary to folder_summary.csv including mirror success percentage
+    """
+
+    # Determine project folder path
+    base_folder_name = root_folder.name  # safer with pathlib
+    project_folder = root_folder / base_folder_name
+
+    if not os.path.isdir(project_folder):
+        print(f"[ERROR] Project folder not found: {project_folder}")
+        return
+
+    total_folders = 0
+    empty_folders = 0
+    non_empty_folders = 0
+    folder_sizes = []
+
+    # List immediate subfolders inside project folder
+    mirror_folders = [os.path.join(project_folder, d) for d in os.listdir(project_folder)
+                      if os.path.isdir(os.path.join(project_folder, d))]
+
+    for folder in mirror_folders:
+        total_folders += 1
+        folder_size = 0
+        is_empty = True
+
+        # Check for any files/subfolders inside mirror folder
+        for dirpath, dirnames, filenames in os.walk(folder):
+            if filenames or dirnames:
+                is_empty = False
+                for f in filenames:
+                    file_path = os.path.join(dirpath, f)
+                    if os.path.isfile(file_path):
+                        folder_size += os.path.getsize(file_path)
+                break  # Only need to check if folder has content, not full scan
+
+        if is_empty:
+            empty_folders += 1
+        else:
+            non_empty_folders += 1
+
+        folder_sizes.append({
+            "Date": datetime.now().strftime("%Y-%m-%d"),
+            "Mirror Folder": os.path.relpath(folder, root_folder),
+            "Size (MB)": f"{folder_size/1024/1024:.2f}",
+            "Is Empty": is_empty
+        })
+
+    # Save per-folder details
+    df = pd.DataFrame(folder_sizes)
+    analysis_outpath = analysis_dir / "folder_analysis.csv"
+    if analysis_outpath.exists():
+        df_old = pd.read_csv(analysis_outpath)
+        df = pd.concat([df_old, df], ignore_index=True).drop_duplicates()
+    df.to_csv(analysis_outpath, index=False)
+
+    # Calculate mirror success percentage
+    success_percentage = (non_empty_folders / total_folders * 100) if total_folders > 0 else 0
+
+    # Save summary including success percentage
+    summary = {
+        "Date": datetime.now().strftime("%Y-%m-%d"),
+        "Total Mirrors": total_folders,
+        "Empty Mirrors": empty_folders,
+        "Non-Empty Mirrors": non_empty_folders,
+        "Success Percentage": f"{success_percentage:.2f}%"
+    }
+    summary_outpath = analysis_dir / "folder_summary.csv"
+    if summary_outpath.exists():
+        df_old = pd.read_csv(summary_outpath)
+        df_all = pd.concat([df_old, pd.DataFrame([summary])], ignore_index=True).drop_duplicates()
+    else:
+        df_all = pd.DataFrame([summary])
+    df_all.to_csv(summary_outpath, index=False)
+
+    # Print mirror success percentage
+    print(f"\nMirror Success Percentage: {success_percentage:.2f}% ({non_empty_folders}/{total_folders} mirrors)")
+    print(f"Per-folder details saved to: {analysis_outpath}")
+    print(f"Summary saved to: {summary_outpath}")
+
+
+
+
 if __name__ == "__main__":
     base_folder = Path('.').resolve()
     analysis_dir = ensure_analysis_folder(base_folder)
@@ -604,6 +694,7 @@ if __name__ == "__main__":
     archive_executable_analysis(base_folder, analysis_dir)
     image_file_analysis(base_folder, analysis_dir, large_size_kb=1024)  # 1024KB = 1MB, adjust as needed
     generate_html_dashboard(analysis_dir)
+    folder_analysis_httrack(base_folder, analysis_dir)
     # write_suspicious_summary_excel(
     # str(analysis_dir / "suspicious_files.csv"),
     # str(analysis_dir / "suspicious_paths.csv"),

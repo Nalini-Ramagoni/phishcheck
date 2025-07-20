@@ -1,0 +1,728 @@
+Ping_Timestamp,URL,Status,HTTP_Code,DNS_TLD
+2025-07-12 15:19:16,https://royalameris.com,Alive,200,com
+2025-07-12 15:19:18,https://Primoam.com,Status 503,503,com
+2025-07-12 15:19:19,https://luminaryfx.pro,Alive,200,pro
+2025-07-12 15:19:19,https://investcorb.com,Not Alive,Error,com
+2025-07-12 15:19:20,https://Baroxinternational.com,Not Alive,Error,com
+2025-07-12 15:19:25,https://atadelfund.com,Alive,200,com
+2025-07-12 15:19:26,https://igeniusglobal.com,Alive,200,com
+2025-07-12 15:19:27,https://Swiftremita.com,Not Alive,Error,com
+2025-07-12 15:19:27,https://Sanoncapital.pro,Not Alive,Error,pro
+2025-07-12 15:19:28,https://goldenarcadvisors.com,Not Alive,Error,com
+2025-07-12 15:19:28,https://Pencpa.com,Not Alive,Error,com
+2025-07-12 15:19:29,https://bluspringfinancials.org/,Not Alive,Error,org
+2025-07-12 15:19:32,https://zentroglobalbank.com/,Alive,200,com
+2025-07-12 15:19:33,https://windvaletrust.online/,Not Alive,Error,online
+2025-07-12 15:19:34,https://veritasapexbank.com/,Alive,200,com
+2025-07-12 15:19:35,https://vaulttrustglobal.online/,Not Alive,Error,online
+2025-07-12 15:19:35,https://www.unionedgecapital.org/,Not Alive,Error,org
+2025-07-12 15:19:36,https://unbbs.online/,Not Alive,Error,online
+2025-07-12 15:19:36,https://www.trustapexalliance.com/,Not Alive,Error,com
+2025-07-12 15:19:38,https://steadfastpremierbnk.org/,Alive,200,org
+2025-07-12 15:19:38,http://www.standardsafetrust.org/,Not Alive,Error,org
+2025-07-12 15:19:39,https://standardgroups.org/,Not Alive,Error,org
+2025-07-12 15:19:41,https://www.standardchrtrev.com/,Alive,200,com
+2025-07-12 15:19:41,https://stabilitytrustcu.online/,Not Alive,Error,online
+2025-07-12 15:19:42,https://solviumcapital.org/,Not Alive,Error,org
+2025-07-12 15:19:42,https://www.solidunioncapitals.com/,Not Alive,Error,com
+2025-07-12 15:19:43,https://www.skyfinanceholdings.com/,Not Alive,Error,com
+2025-07-12 15:19:43,https://www.shieldoptimatrust.online/,Not Alive,Error,online
+2025-07-12 15:19:44,https://www.rfitrustglobal.com,Not Alive,Error,com
+2025-07-12 15:19:45,https://reaquityfinance.com/,Not Alive,Error,com
+2025-07-12 15:19:46,https://prestigecrestheights.online/,Not Alive,Error,online
+2025-07-12 15:19:47,https://pillarheritagesave.pro/,Not Alive,Error,pro
+2025-07-12 15:19:47,https://originspringtrust.online/,Not Alive,Error,online
+2025-07-12 15:19:48,https://www.opulentmarktrust.online/,Not Alive,Error,online
+2025-07-12 15:19:51,https://noventrawealthbank.com,Not Alive,Error,com
+2025-07-12 15:19:51,https://novapinnacle.org/,Not Alive,Error,org
+2025-07-12 15:19:52,https://www.novatrustway.online/,Not Alive,Error,online
+2025-07-12 15:19:52,https://www.noblecapitalheights.online/,Not Alive,Error,online
+2025-07-12 15:19:54,https://internationalfinancemalaysia.com/,Not Alive,Error,com
+2025-07-12 15:19:54,https://interspectrabnk.com/,Not Alive,Error,com
+2025-07-12 15:19:55,https://pvbbk.com/,Not Alive,Error,com
+2025-07-12 15:19:55,https://horizonridgecu.online/,Not Alive,Error,online
+2025-07-12 15:19:56,https://horixenfinancebank.com/,Not Alive,Error,com
+2025-07-12 15:19:56,https://www.hbglobalbank.com/,Not Alive,Error,com
+2025-07-12 15:19:57,https://havenrocktrust.online/,Not Alive,Error,online
+2025-07-12 15:19:58,https://www.guaranteefinbank.com/,Not Alive,Error,com
+2025-07-12 15:19:58,https://globalcitytrustbank.com/,Not Alive,Error,com
+2025-07-12 15:19:59,https://grandwavealliance.com/,Not Alive,Error,com
+2025-07-12 15:19:59,https://www.goldenshoretrust.online/,Not Alive,Error,online
+2025-07-12 15:20:01,https://globeunionfinance.com/,Not Alive,Error,com
+2025-07-12 15:20:01,https://elevateedgetrust.online/,Not Alive,Error,online
+2025-07-12 15:20:02,https://edgefinancialcorp.org,Alive,200,org
+2025-07-12 15:20:03,https://crestnobletrust.online/,Not Alive,Error,online
+2025-07-12 15:20:03,https://crespofinance.com/,Not Alive,Error,com
+2025-07-12 15:20:04,https://creditswiftassets.org/index-2.html,Not Alive,Error,org
+2025-07-12 15:20:05,https://www.creditswiftassets.org/,Not Alive,Error,org
+2025-07-12 15:20:05,https://creditfastunion.com/index-2.html,Not Alive,Error,com
+2025-07-12 15:20:06,https://credilyunions.com/index.php,Not Alive,Error,com
+2025-07-12 15:20:06,https://www.ctcalliance.com/,Not Alive,Error,com
+2025-07-12 15:20:07,https://chaabipluscapital.org/,Not Alive,Error,org
+2025-07-12 15:20:10,https://www.celeritastrustbank.com/,Alive,200,com
+2025-07-12 15:20:10,https://auxtrusunion.com/index-2.php,Not Alive,Error,com
+2025-07-12 15:20:11,https://ascendhaventrust.online,Not Alive,Error,online
+2025-07-12 15:20:11,https://alliancenovatrust.pro/index-2.php,Not Alive,Error,pro
+2025-07-12 15:20:12,https://Soltcll.net,Not Alive,Error,net
+2025-07-12 15:20:12,https://atstradingserviceltd.com,Not Alive,Error,com
+2025-07-12 15:20:14,https://avonequitiesltd.com/,Alive,200,com
+2025-07-12 15:20:15,https://promarketspot.com,Not Alive,Error,com
+2025-07-12 15:20:16,https://premiumcryptolite.com,Not Alive,Error,com
+2025-07-12 15:20:17,https://pinnaclesassetmanagement.com,Not Alive,Error,com
+2025-07-12 15:20:18,https://horizonxprexbs.com,Not Alive,Error,com
+2025-07-12 15:20:19,https://horizonprofitchasers.com,Not Alive,Error,com
+2025-07-12 15:20:20,https://globalproinvestment.com,Not Alive,Error,com
+2025-07-12 15:20:21,https://globalapexmarket.com,Alive,200,com
+2025-07-12 15:20:22,https://forbescapitaltrade.com,Not Alive,Error,com
+2025-07-12 15:20:23,https://eliteminerproinvestment.com,Not Alive,Error,com
+2025-07-12 15:20:24,https://copyvestpro.com,Not Alive,Error,com
+2025-07-12 15:20:25,https://coinlog.net,Alive,200,net
+2025-07-12 15:20:27,https://certifiedtrade.net,Alive,200,net
+2025-07-12 15:20:28,https://astridglobalinvestment.com,Not Alive,Error,com
+2025-07-12 15:20:29,https://aspirebitwealth.com,Not Alive,Error,com
+2025-07-12 15:20:31,https://apexglobalfxworld.com,Alive,200,com
+2025-07-12 15:20:32,https://trade.bitwaveequity.com,Not Alive,Error,com
+2025-07-12 15:20:32,https://Finiwise.com,Not Alive,Error,com
+2025-07-12 15:20:33,https://superswiss.com,Not Alive,Error,com
+2025-07-12 15:20:36,https://Caddingtonlimited.com,Alive,200,com
+2025-07-12 15:20:37,https://zavrox.com,Status 403,403,com
+2025-07-12 15:20:37,https://wcgdeposits.com,Not Alive,Error,com
+2025-07-12 15:20:38,https://verbofx.com,Not Alive,Error,com
+2025-07-12 15:20:40,https://junshengfx.net,Alive,200,net
+2025-07-12 15:20:43,https://Faze.capital,Alive,200,capital
+2025-07-12 15:20:43,https://soft-cloudltd.com,Not Alive,Error,com
+2025-07-12 15:20:44,https://capitalonlineprofit.com,Not Alive,Error,com
+2025-07-12 15:20:44,https://xemifx-markets.com,Not Alive,Error,com
+2025-07-12 15:20:45,https://xc-easyoptions.com,Not Alive,Error,com
+2025-07-12 15:20:45,https://vitalfxtrades.com,Not Alive,Error,com
+2025-07-12 15:20:46,https://vaststrategytrades.com,Not Alive,Error,com
+2025-07-12 15:20:48,https://vasttradenetwork.com,Not Alive,Error,com
+2025-07-12 15:20:50,https://uniqueexpfx.info,Alive,200,info
+2025-07-12 15:20:51,https://uniquetradenetwork.com,Not Alive,Error,com
+2025-07-12 15:20:51,https://turbocryptinvestintl.com,Not Alive,Error,com
+2025-07-12 15:20:55,https://tradequext.com,Not Alive,Error,com
+2025-07-12 15:20:56,https://tradesfxvista.com,Not Alive,Error,com
+2025-07-12 15:20:58,https://tp-tasklimited.com,Alive,200,com
+2025-07-12 15:20:58,https://tmfxtrading.com,Not Alive,Error,com
+2025-07-12 15:21:00,https://SwiftNextrade.com,Alive,200,com
+2025-07-12 15:21:01,https://swiftmavericks.com,Not Alive,Error,com
+2025-07-12 15:21:02,https://supabinances.com,Not Alive,Error,com
+2025-07-12 15:21:02,https://sucextrade.com,Not Alive,Error,com
+2025-07-12 15:21:03,https://sotremfxoption.live,Not Alive,Error,live
+2025-07-12 15:21:04,https://safecryptominingfx.net,Not Alive,Error,net
+2025-07-12 15:21:04,https://primeoptionsmarket.com,Not Alive,Error,com
+2025-07-12 15:21:05,https://oxcoinfxoption.com,Not Alive,Error,com
+2025-07-12 15:21:06,https://opensigonline.com,Not Alive,Error,com
+2025-07-12 15:21:07,https://nothernsidecapital.com,Not Alive,Error,com
+2025-07-12 15:21:10,https://megacoinsindex.com,Not Alive,Error,com
+2025-07-12 15:21:10,https://marketfxmovers.com,Not Alive,Error,com
+2025-07-12 15:21:11,https://makotopoption.com,Not Alive,Error,com
+2025-07-12 15:21:11,https://kdliteoption.com,Not Alive,Error,com
+2025-07-12 15:21:13,https://infinite-miners.co.in,Alive,200,co.in
+2025-07-12 15:21:13,https://globalultimatetrade.com,Not Alive,Error,com
+2025-07-12 15:21:15,https://globaltradingnex.com,Not Alive,Error,com
+2025-07-12 15:21:15,https://gemitrafxoption.com,Not Alive,Error,com
+2025-07-12 15:21:16,https://gananciaoptions.com,Not Alive,Error,com
+2025-07-12 15:21:16,https://fxFaceBooktrade.net,Not Alive,Error,net
+2025-07-12 15:21:18,https://frettrading.com,Alive,200,com
+2025-07-12 15:21:19,https://forexFaceBooktrading.com,Not Alive,Error,com
+2025-07-12 15:21:19,https://forexforgemining.com,Not Alive,Error,com
+2025-07-12 15:21:20,https://forexFaceBooktrades.com,Not Alive,Error,com
+2025-07-12 15:21:20,https://firstworldcrypto.com,Not Alive,Error,com
+2025-07-12 15:21:21,https://firstlighttrade.com,Not Alive,Error,com
+2025-07-12 15:21:22,https://fastlinkfx.com,Not Alive,Error,com
+2025-07-12 15:21:22,https://FastGrowTrade.com,Not Alive,Error,com
+2025-07-12 15:21:23,https://FaceBooklforextrade.com,Not Alive,Error,com
+2025-07-12 15:21:23,https://excelprooption.com,Not Alive,Error,com
+2025-07-12 15:21:24,https://elitevistaoptions.com,Not Alive,Error,com
+2025-07-12 15:21:24,https://elitemaxtrade.com,Not Alive,Error,com
+2025-07-12 15:21:25,https://edgeflextrade.com,Not Alive,Error,com
+2025-07-12 15:21:25,https://digitaldailyprofit247.com,Not Alive,Error,com
+2025-07-12 15:21:27,https://digitalfx.pythonanywhere.com,Alive,200,com
+2025-07-12 15:21:27,https://dailytradingoptions.com,Not Alive,Error,com
+2025-07-12 15:21:31,https://kryptoworld-fx.com,Alive,200,com
+2025-07-12 15:21:32,https://cryptoavaearning.com,Not Alive,Error,com
+2025-07-12 15:21:33,https://choicestandoutsyndicate.com,Not Alive,Error,com
+2025-07-12 15:21:33,https://capitalonlineprofit.com/home/en/,Not Alive,Error,com
+2025-07-12 15:21:34,https://calidchainfinance.com,Not Alive,Error,com
+2025-07-12 15:21:34,https://bitprimefxtrading.com,Not Alive,Error,com
+2025-07-12 15:21:39,https://coinvaxcapital.com,Not Alive,Error,com
+2025-07-12 15:21:43,https://axiomtradings.com,Alive,200,com
+2025-07-12 15:21:43,https://assetssphere.com,Not Alive,Error,com
+2025-07-12 15:21:45,https://alpalsignals.com,Not Alive,Error,com
+2025-07-12 15:21:46,https://aicoremarkets.com,Not Alive,Error,com
+2025-07-12 15:21:46,https://advanceprimetrader.com,Not Alive,Error,com
+2025-07-12 15:21:47,https://247primesummit.com,Not Alive,Error,com
+2025-07-12 15:21:47,https://10xtradingtimeoptionsv3.com,Not Alive,Error,com
+2025-07-12 15:21:49,https://harbourassetmgt.org,Alive,200,org
+2025-07-12 15:21:53,https://bennetinvestment.com,Alive,200,com
+2025-07-12 15:21:54,https://smartfactoryfx.com,Not Alive,Error,com
+2025-07-12 15:21:57,https://Homnifi.com,Alive,200,com
+2025-07-12 15:21:58,https://B2Pay.app,Alive,200,app
+2025-07-12 15:22:01,https://Shiiro.com,Alive,200,com
+2025-07-12 15:22:03,https://Xpro.gitbook.io,Alive,200,io
+2025-07-12 15:22:04,https://capitalsXPlus.com,Status 403,403,com
+2025-07-12 15:22:05,https://zodiamarkets.vip,Not Alive,Error,vip
+2025-07-12 15:22:05,https://ylchat.com,Not Alive,Error,com
+2025-07-12 15:22:06,https://aaaxmcfd.com,Not Alive,Error,com
+2025-07-12 15:22:07,https://xchar.cc,Not Alive,Error,cc
+2025-07-12 15:22:08,https://v3option.com,Not Alive,Error,com
+2025-07-12 15:22:09,https://trademx365.com,Not Alive,Error,com
+2025-07-12 15:22:09,https://tpcmetatrader.com,Not Alive,Error,com
+2025-07-12 15:22:10,https://tmgmltd.com,Not Alive,Error,com
+2025-07-12 15:22:10,https://temaketltd.com,Not Alive,Error,com
+2025-07-12 15:22:11,https://tauforex.net,Not Alive,Error,net
+2025-07-12 15:22:12,https://tasmaltd.com,Not Alive,Error,com
+2025-07-12 15:22:17,https://tasmanltd.com,Not Alive,Error,com
+2025-07-12 15:22:18,https://straitsfxvip.com,Not Alive,Error,com
+2025-07-12 15:22:18,https://stockfxmarkets.com,Not Alive,Error,com
+2025-07-12 15:22:19,https://pcssgapro.gdcyls.com,Not Alive,Error,com
+2025-07-12 15:22:19,https://sqlqdmarts.com,Not Alive,Error,com
+2025-07-12 15:22:20,https://sownotx.com,Not Alive,Error,com
+2025-07-12 15:22:20,https://skylineltdfx.com,Not Alive,Error,com
+2025-07-12 15:22:21,https://skncoin.com,Not Alive,Error,com
+2025-07-12 15:22:22,https://ssjtcf-forex.com,Not Alive,Error,com
+2025-07-12 15:22:22,https://sedxltd.com,Status 403,403,com
+2025-07-12 15:22:23,https://saxoasin.com,Not Alive,Error,com
+2025-07-12 15:22:24,https://rivergloballtd.com,Not Alive,Error,com
+2025-07-12 15:22:24,https://prudentialweb.bizdw.com,Not Alive,Error,com
+2025-07-12 15:22:25,https://pepperstonevip.com,Not Alive,Error,com
+2025-07-12 15:22:25,https://parrtd.com,Not Alive,Error,com
+2025-07-12 15:22:26,https://onewaytex.com,Not Alive,Error,com
+2025-07-12 15:22:26,https://xynnyse.com,Not Alive,Error,com
+2025-07-12 15:22:27,https://novalimited.info,Not Alive,Error,info
+2025-07-12 15:22:28,https://newsmarketsltd.com,Status 403,403,com
+2025-07-12 15:22:28,https://neonskytd.com,Not Alive,Error,com
+2025-07-12 15:22:29,https://nasdaqkfx.com,Not Alive,Error,com
+2025-07-12 15:22:29,https://mprde.com,Not Alive,Error,com
+2025-07-12 15:22:30,https://mancuifcnet.com,Not Alive,Error,com
+2025-07-12 15:22:30,https://lszxy-fx.com,Not Alive,Error,com
+2025-07-12 15:22:31,https://lamboxfx.cc,Not Alive,Error,cc
+2025-07-12 15:22:32,https://lesenmaks.cc,Not Alive,Error,cc
+2025-07-12 15:22:32,https://kyros.vip,Not Alive,Error,vip
+2025-07-12 15:22:33,https://kmaicc.vip,Not Alive,Error,vip
+2025-07-12 15:22:33,https://kkrrh.com,Not Alive,Error,com
+2025-07-12 15:22:34,https://kcmtradeint.com,Not Alive,Error,com
+2025-07-12 15:22:35,https://jhmfxltd.com,Not Alive,Error,com
+2025-07-12 15:22:35,https://ivisiontrade.com,Not Alive,Error,com
+2025-07-12 15:22:36,https://iuxmarketsfx.com,Not Alive,Error,com
+2025-07-12 15:22:37,https://intraglobalfx.com,Not Alive,Error,com
+2025-07-12 15:22:37,https://igmarketsfx.com,Not Alive,Error,com
+2025-07-12 15:22:38,https://ibtpglobal.com,Not Alive,Error,com
+2025-07-12 15:22:39,https://hxqna.com,Alive,200,com
+2025-07-12 15:22:40,https://hut8ltd.com,Not Alive,Error,com
+2025-07-12 15:22:40,https://marketsintervip.com,Not Alive,Error,com
+2025-07-12 15:22:41,https://gray-thy.com,Not Alive,Error,com
+2025-07-12 15:22:41,https://gmimarkets.vip,Not Alive,Error,vip
+2025-07-12 15:22:44,https://gftradese.com,Alive,200,com
+2025-07-12 15:22:44,https://gffxx-ff6.com,Not Alive,Error,com
+2025-07-12 15:22:45,https://fuwaltd.com,Not Alive,Error,com
+2025-07-12 15:22:45,https://funding-mx.com,Not Alive,Error,com
+2025-07-12 15:22:46,https://fogoforex.com,Not Alive,Error,com
+2025-07-12 15:22:46,https://foboxglobal.com,Status 403,403,com
+2025-07-12 15:22:47,https://firephoenixex.com,Not Alive,Error,com
+2025-07-12 15:22:47,https://fdglobalmarket.com,Not Alive,Error,com
+2025-07-12 15:22:48,https://fcaageafin.com,Not Alive,Error,com
+2025-07-12 15:22:48,https://fbssltd.com,Not Alive,Error,com
+2025-07-12 15:22:49,https://exclusivegoldfx.com,Status 403,403,com
+2025-07-12 15:22:50,https://buxmarketstd.com,Not Alive,Error,com
+2025-07-12 15:22:50,https://eibcfinancldif.icu,Not Alive,Error,icu
+2025-07-12 15:22:51,https://wwwdxi.botaifrp.com,Not Alive,Error,com
+2025-07-12 15:22:52,https://dtxmaiketx.cc,Not Alive,Error,cc
+2025-07-12 15:22:52,https://dml-markets.com,Not Alive,Error,com
+2025-07-12 15:22:53,https://dkglob.com,Not Alive,Error,com
+2025-07-12 15:22:54,https://deoasis.net,Not Alive,Error,net
+2025-07-12 15:22:55,https://pecodefx.com,Not Alive,Error,com
+2025-07-12 15:22:56,https://dcmmarkets.com,Not Alive,Error,com
+2025-07-12 15:22:57,https://dbgmarkentskinlhdsb.com,Not Alive,Error,com
+2025-07-12 15:22:57,https://cxmtra.com,Not Alive,Error,com
+2025-07-12 15:22:58,https://comcvip.com,Not Alive,Error,com
+2025-07-12 15:22:58,https://cometa-global.com,Not Alive,Error,com
+2025-07-12 15:22:59,https://catalystgroupstar.com,Not Alive,Error,com
+2025-07-12 15:22:59,https://capitalmanager.link,Not Alive,Error,link
+2025-07-12 15:23:00,https://tradercgomarkets.com,Not Alive,Error,com
+2025-07-12 15:23:00,https://btgrdo.com,Not Alive,Error,com
+2025-07-12 15:23:01,https://branctrade.com,Not Alive,Error,com
+2025-07-12 15:23:02,https://bscapm.com,Not Alive,Error,com
+2025-07-12 15:23:03,https://branch-forex.com,Status 400,400,com
+2025-07-12 15:23:04,https://branch-fx-one.com,Not Alive,Error,com
+2025-07-12 15:23:05,https://boloniltd.com,Alive,200,com
+2025-07-12 15:23:05,https://blueberry-global.com,Status 403,403,com
+2025-07-12 15:23:06,https://blkinternationalltd.com,Not Alive,Error,com
+2025-07-12 15:23:07,https://blgpro.com,Not Alive,Error,com
+2025-07-12 15:23:07,https://blackbullfxltd.com,Status 403,403,com
+2025-07-12 15:23:08,https://bitpieexc.com,Not Alive,Error,com
+2025-07-12 15:23:08,https://gf.bitceco.com,Not Alive,Error,com
+2025-07-12 15:23:09,https://baazexdx.com,Not Alive,Error,com
+2025-07-12 15:23:10,https://ausglobalforex.com,Not Alive,Error,com
+2025-07-12 15:23:10,https://atfxgoldsvip.com,Not Alive,Error,com
+2025-07-12 15:23:11,https://aslasll.com,Not Alive,Error,com
+2025-07-12 15:23:11,https://apexfxent.com,Not Alive,Error,com
+2025-07-12 15:23:12,https://ancetdfx.com,Not Alive,Error,com
+2025-07-12 15:23:12,https://fproalizan.com,Not Alive,Error,com
+2025-07-12 15:23:13,https://aeestgroup.com,Status 403,403,com
+2025-07-12 15:23:19,https://fxpioneet.com,Not Alive,Error,com
+2025-07-12 15:23:19,https://247markettrade.com,Not Alive,Error,com
+2025-07-12 15:23:20,https://www.gbtcmarkets.com,Not Alive,Error,com
+2025-07-12 15:23:20,https://lquid.finance,Not Alive,Error,finance
+2025-07-12 15:23:21,https://capitalxtrade.com,Not Alive,Error,com
+2025-07-12 15:23:23,https://Peachlimit.com,Alive,200,com
+2025-07-12 15:23:24,https://www.opuscoin.com,Alive,200,com
+2025-07-12 15:23:25,https://www.BIB-BTC.com,Not Alive,Error,com
+2025-07-12 15:23:26,https://www.eth-alpha.com/;,Not Alive,Error,com
+2025-07-12 15:23:26,https://www.profitcs.net,Not Alive,Error,net
+2025-07-12 15:23:27,https://dynamic-arb.vip;,Not Alive,Error,
+2025-07-12 15:23:27,https://ptounz.com/#/;,Not Alive,Error,com
+2025-07-12 15:23:28,https://optcoin.lol,Not Alive,Error,lol
+2025-07-12 15:23:29,https://zeeltrade.com,Alive,200,com
+2025-07-12 15:23:31,https://zealvest.com,Alive,200,com
+2025-07-12 15:23:31,https://xrocecapital.com,Not Alive,Error,com
+2025-07-12 15:23:32,https://xplorefxtrading.com,Not Alive,Error,com
+2025-07-12 15:23:32,https://xcointrader.com,Not Alive,Error,com
+2025-07-12 15:23:33,https://wisecryptoinvestor.com,Not Alive,Error,com
+2025-07-12 15:23:34,https://whales-asset.com,Not Alive,Error,com
+2025-07-12 15:23:34,https://welfareconomics.net,Not Alive,Error,net
+2025-07-12 15:23:35,https://vista-portfolio.com,Not Alive,Error,com
+2025-07-12 15:23:41,https://vestprimefx.com,Not Alive,Error,com
+2025-07-12 15:23:43,https://vertexcapitalpro.com,Alive,200,com
+2025-07-12 15:23:44,https://ultratopultimate.com,Not Alive,Error,com
+2025-07-12 15:23:44,https://ultraspringkoin.com,Not Alive,Error,com
+2025-07-12 15:23:45,https://ultimate-fund.ltd,Not Alive,Error,ltd
+2025-07-12 15:23:46,https://truxmarkettrade.com,Not Alive,Error,com
+2025-07-12 15:23:46,https://trustinveztment.com,Not Alive,Error,com
+2025-07-12 15:23:47,https://trustfxtrde.com,Not Alive,Error,com
+2025-07-12 15:23:48,https://tradingwithstockmarketprofit.com,Not Alive,Error,com
+2025-07-12 15:23:48,https://networkchoicelab.com,Not Alive,Error,com
+2025-07-12 15:23:49,https://tradefxlive.com,Not Alive,Error,com
+2025-07-12 15:23:49,https://tradefxcapital.online,Not Alive,Error,online
+2025-07-12 15:23:51,https://topwealthfx.com,Alive,200,com
+2025-07-12 15:23:52,https://teslenergy.com,Not Alive,Error,com
+2025-07-12 15:23:55,https://swiftcryptooptionstrade.com,Not Alive,Error,com
+2025-07-12 15:23:56,https://swapultratrade.com,Not Alive,Error,com
+2025-07-12 15:23:56,https://successfulexperttrade.com,Not Alive,Error,com
+2025-07-12 15:23:57,https://stockfxcapitals.org,Not Alive,Error,org
+2025-07-12 15:23:58,https://stockultimatepro.com,Not Alive,Error,com
+2025-07-12 15:23:58,https://stockcomproperties.online,Not Alive,Error,online
+2025-07-12 15:23:59,https://stellargateinvest.com,Not Alive,Error,com
+2025-07-12 15:24:00,https://mystakehomecrypto.com,Not Alive,Error,com
+2025-07-12 15:24:01,https://speedtonxhub.com,Not Alive,Error,com
+2025-07-12 15:24:01,https://specetechfx.pro,Not Alive,Error,pro
+2025-07-12 15:24:03,https://smartrealisticinv.com,Not Alive,Error,com
+2025-07-12 15:24:03,https://smartpremiertrade.com,Not Alive,Error,com
+2025-07-12 15:24:04,https://smartoptionsinvestment.com,Not Alive,Error,com
+2025-07-12 15:24:05,https://siritechlimited.com,Not Alive,Error,com
+2025-07-12 15:24:06,https://royallitehub.com,Not Alive,Error,com
+2025-07-12 15:24:06,https://relybetterinvestment.com,Not Alive,Error,com
+2025-07-12 15:24:07,https://resprofvents.com,Not Alive,Error,com
+2025-07-12 15:24:07,https://ranatradeportfolio.online,Not Alive,Error,online
+2025-07-12 15:24:08,https://prontvault.com,Not Alive,Error,com
+2025-07-12 15:24:09,https://profitzoneinvestment.live,Not Alive,Error,live
+2025-07-12 15:24:09,https://profitabletrustmining.com,Not Alive,Error,com
+2025-07-12 15:24:10,https://propluxvest.com,Not Alive,Error,com
+2025-07-12 15:24:11,https://primehubsassets.com,Not Alive,Error,com
+2025-07-12 15:24:12,https://primeinveztment.com,Not Alive,Error,com
+2025-07-12 15:24:12,https://preminentgoals.com,Not Alive,Error,com
+2025-07-12 15:24:13,https://pinnaclevestltd.com,Not Alive,Error,com
+2025-07-12 15:24:13,https://peaktradepro.com,Not Alive,Error,com
+2025-07-12 15:24:14,https://patroncoinfx.com,Not Alive,Error,com
+2025-07-12 15:24:14,https://optimatrust-fx.com,Not Alive,Error,com
+2025-07-12 15:24:15,https://novaloption.com,Not Alive,Error,com
+2025-07-12 15:24:16,https://v-king7.dynu.com,Not Alive,Error,com
+2025-07-12 15:24:17,https://nexuscrestltd.com,Not Alive,Error,com
+2025-07-12 15:24:17,https://nexasassets.com,Not Alive,Error,com
+2025-07-12 15:24:18,https://nexaassetsmkt.com,Not Alive,Error,com
+2025-07-12 15:24:19,https://mpkonlinetrading.com,Not Alive,Error,com
+2025-07-12 15:24:20,https://menfxtprotrades.com,Not Alive,Error,com
+2025-07-12 15:24:20,https://megaassetsltd.com,Not Alive,Error,com
+2025-07-12 15:24:21,https://maxcoinoptions.com,Not Alive,Error,com
+2025-07-12 15:24:21,https://mastertradershub.com,Not Alive,Error,com
+2025-07-12 15:24:22,https://marstechlimited.com,Not Alive,Error,com
+2025-07-12 15:24:23,https://marketmonkx.com,Not Alive,Error,com
+2025-07-12 15:24:24,https://lumnex.co,Not Alive,Error,co
+2025-07-12 15:24:24,https://littrademarket.com,Not Alive,Error,com
+2025-07-12 15:24:25,https://lexaprime.com,Not Alive,Error,com
+2025-07-12 15:24:25,https://legalfxt24.com,Not Alive,Error,com
+2025-07-12 15:24:27,https://leadsinsuredtrades.com,Status 403,403,com
+2025-07-12 15:24:30,https://kapitlitellc.com,Not Alive,Error,com
+2025-07-12 15:24:31,https://janamoniee.ltd,Not Alive,Error,ltd
+2025-07-12 15:24:32,https://interlitesorverxts.com,Alive,200,com
+2025-07-12 15:24:33,https://igeniusglobaltrades.com,Not Alive,Error,com
+2025-07-12 15:24:33,https://horizonxtrades.com,Not Alive,Error,com
+2025-07-12 15:24:34,https://hedgecaplimited.com,Not Alive,Error,com
+2025-07-12 15:24:35,https://hashprimegold.com,Not Alive,Error,com
+2025-07-12 15:24:35,https://hamstechllc.com,Not Alive,Error,com
+2025-07-12 15:24:36,https://halinxinvest.com,Not Alive,Error,com
+2025-07-12 15:24:36,https://growthtopultimate.com,Not Alive,Error,com
+2025-07-12 15:24:37,https://growthaccessltd.com,Not Alive,Error,com
+2025-07-12 15:24:37,https://globalforextradingprofit.com,Not Alive,Error,com
+2025-07-12 15:24:38,https://globalbestminingtrades.com,Not Alive,Error,com
+2025-07-12 15:24:38,https://globalcoinfxt.one,Not Alive,Error,one
+2025-07-12 15:24:39,https://fxicoin.com,Not Alive,Error,com
+2025-07-12 15:24:39,https://futureindexpro.net,Not Alive,Error,net
+2025-07-12 15:24:40,https://funds-xmincome.ltd,Not Alive,Error,ltd
+2025-07-12 15:24:41,https://fpictrades.com,Not Alive,Error,com
+2025-07-12 15:24:42,https://fondexeasymarket.com,Alive,200,com
+2025-07-12 15:24:42,https://firstpacehub.com,Not Alive,Error,com
+2025-07-12 15:24:43,https://firstoopstock.com,Not Alive,Error,com
+2025-07-12 15:24:43,https://fidscharting.com,Not Alive,Error,com
+2025-07-12 15:24:44,https://fastchipsminerstrade.com,Not Alive,Error,com
+2025-07-12 15:24:44,https://etherealelites.com,Not Alive,Error,com
+2025-07-12 15:24:45,https://entitywave.com,Not Alive,Error,com
+2025-07-12 15:24:46,https://elitepooltrade.com,Not Alive,Error,com
+2025-07-12 15:24:46,https://elitelinellb.com,Not Alive,Error,com
+2025-07-12 15:24:47,https://eliteassetltd.com,Not Alive,Error,com
+2025-07-12 15:24:48,https://dynamicpulsetrade.com,Alive,200,com
+2025-07-12 15:24:49,https://dominoinvestment.com,Not Alive,Error,com
+2025-07-12 15:24:49,https://diverswealth.com,Not Alive,Error,com
+2025-07-12 15:24:50,https://dittrademarket.com,Not Alive,Error,com
+2025-07-12 15:24:51,https://digitalfxtpro.com,Not Alive,Error,com
+2025-07-12 15:24:51,https://digitalaccessbitinv.com,Not Alive,Error,com
+2025-07-12 15:24:57,https://dexertonfinancial.org,Not Alive,Error,org
+2025-07-12 15:24:58,https://dc-statestreet.com,Not Alive,Error,com
+2025-07-12 15:24:58,https://cryptoinvestospage.vercel.app,Alive,200,app
+2025-07-12 15:24:59,https://cryptotexe.com,Not Alive,Error,com
+2025-07-12 15:25:00,https://crypto-tradinghood.com,Not Alive,Error,com
+2025-07-12 15:25:02,https://cryptocoastinvestmentsltd.com,Alive,200,com
+2025-07-12 15:25:04,https://crypbasltd.online,Not Alive,Error,online
+2025-07-12 15:25:04,https://copytrqdingworld.com,Not Alive,Error,com
+2025-07-12 15:25:05,https://continentinvt.com,Not Alive,Error,com
+2025-07-12 15:25:06,https://commudityexchanger.online,Not Alive,Error,online
+2025-07-12 15:25:07,https://citiforexgoal.com,Not Alive,Error,com
+2025-07-12 15:25:07,https://chrontechltd.com,Not Alive,Error,com
+2025-07-12 15:25:08,https://cherrytradingops.com,Not Alive,Error,com
+2025-07-12 15:25:08,https://chartmainoptions.com,Not Alive,Error,com
+2025-07-12 15:25:09,https://certifiedgrowthpro.com,Not Alive,Error,com
+2025-07-12 15:25:10,https://centralcapitalfx.com,Not Alive,Error,com
+2025-07-12 15:25:10,https://celxtrade.com,Not Alive,Error,com
+2025-07-12 15:25:11,https://castlemarkfx.com,Not Alive,Error,com
+2025-07-12 15:25:11,https://capitalwave-exchange.online,Not Alive,Error,online
+2025-07-12 15:25:12,https://capitaflow.online,Not Alive,Error,online
+2025-07-12 15:25:12,https://jotcoins.com,Not Alive,Error,com
+2025-07-12 15:25:13,https://bxpulsetrades.com,Status 403,403,com
+2025-07-12 15:25:13,https://bonkrest.com,Not Alive,Error,com
+2025-07-12 15:25:14,https://pcex.com,Not Alive,Error,com
+2025-07-12 15:25:20,https://uicex.com,Not Alive,Error,com
+2025-07-12 15:25:21,https://uzex.com,Alive,200,com
+2025-07-12 15:25:21,https://grokrcoin.com,Not Alive,Error,com
+2025-07-12 15:25:22,https://68ea.com,Alive,200,com
+2025-07-12 15:25:23,https://riscoin.com,Not Alive,Error,com
+2025-07-12 15:25:24,https://dsjoo.com,Alive,200,com
+2025-07-12 15:25:24,https://cbex18.com,Not Alive,Error,com
+2025-07-12 15:25:25,https://ijexzp.com,Not Alive,Error,com
+2025-07-12 15:25:25,https://txex21.com,Not Alive,Error,com
+2025-07-12 15:25:27,https://blockchainminners.com,Alive,200,com
+2025-07-12 15:25:28,https://bitnextinv.com,Not Alive,Error,com
+2025-07-12 15:25:29,https://bitcoinminingasset.com,Not Alive,Error,com
+2025-07-12 15:25:29,https://bitcistckasset.com,Not Alive,Error,com
+2025-07-12 15:25:30,https://bestbinarytrading.com,Not Alive,Error,com
+2025-07-12 15:25:30,https://baxterfxtrade.com,Not Alive,Error,com
+2025-07-12 15:25:31,https://apogeeglobal.ltd,Not Alive,Error,ltd
+2025-07-12 15:25:32,https://alts-profit.com,Not Alive,Error,com
+2025-07-12 15:25:33,https://alphatopultimate.com,Not Alive,Error,com
+2025-07-12 15:25:34,https://adroitlimited.com,Alive,200,com
+2025-07-12 15:25:46,https://skyinvesthub.com,Not Alive,Error,com
+2025-07-12 15:25:48,https://Blockchain-dep.com,Status 403,403,com
+2025-07-12 15:25:50,https://juhbz.org/#/;,Status 403,403,org
+2025-07-12 15:25:50,https://Sanoncapital.trade,Not Alive,Error,trade
+2025-07-12 15:25:51,https://Pen-cpa.com,Not Alive,Error,com
+2025-07-12 15:25:54,https://Pentagoncpa.com,Alive,200,com
+2025-07-12 15:25:55,https://atsclient.atstradingserviceltd.com,Not Alive,Error,com
+2025-07-12 15:25:56,https://bitwaveequity.com,Not Alive,Error,com
+2025-07-12 15:25:58,https://coursados.com,Alive,200,com
+2025-07-12 15:25:59,https://zenithfx.co,Not Alive,Error,co
+2025-07-12 15:25:59,https://arbitervault.com,Status 403,403,com
+2025-07-12 15:26:00,https://bitinby.com,Not Alive,Error,com
+2025-07-12 15:26:01,https://bitobase.com,Not Alive,Error,com
+2025-07-12 15:26:02,https://cenorim.com,Status 403,403,com
+2025-07-12 15:26:03,https://cenvor.com,Status 403,403,com
+2025-07-12 15:26:03,https://cepez.com,Status 403,403,com
+2025-07-12 15:26:04,https://cevonor.com,Status 403,403,com
+2025-07-12 15:26:04,https://cloudxbit.com,Status 403,403,com
+2025-07-12 15:26:06,https://clunio.com,Not Alive,Error,com
+2025-07-12 15:26:07,https://coinfuse.io,Not Alive,Error,io
+2025-07-12 15:26:07,https://colenex.com,Status 403,403,com
+2025-07-12 15:26:08,https://comtrex.pro,Not Alive,Error,pro
+2025-07-12 15:26:09,https://dexn.cc,Not Alive,Error,cc
+2025-07-12 15:26:09,https://eurex-crypto.eu,Status 403,403,eu
+2025-07-12 15:26:10,https://genemybit.com,Not Alive,Error,com
+2025-07-12 15:26:10,https://jorerx.com,Not Alive,Error,com
+2025-07-12 15:26:11,https://kofrex.com,Not Alive,Error,com
+2025-07-12 15:26:11,https://lemip.com,Status 403,403,com
+2025-07-12 15:26:12,https://menotar.com,Status 403,403,com
+2025-07-12 15:26:13,https://neloax.com,Status 403,403,com
+2025-07-12 15:26:13,https://nonaf.com,Status 403,403,com
+2025-07-12 15:26:14,https://paycommoney.top,Not Alive,Error,top
+2025-07-12 15:26:15,https://raeex.com,Status 403,403,com
+2025-07-12 15:26:16,https://Relutor.com,Not Alive,Error,com
+2025-07-12 15:26:17,https://rexwox.com,Status 403,403,com
+2025-07-12 15:26:17,https://socfo.com,Status 403,403,com
+2025-07-12 15:26:18,https://spcaex.best,Not Alive,Error,best
+2025-07-12 15:26:18,https://vexusbit.com,Status 403,403,com
+2025-07-12 15:26:19,https://viaxbit.com,Status 403,403,com
+2025-07-12 15:26:19,https://vlunur.com,Not Alive,Error,com
+2025-07-12 15:26:21,https://wazanex.com,Not Alive,Error,com
+2025-07-12 15:26:21,https://welamex.com,Status 403,403,com
+2025-07-12 15:26:22,https://xanory.com,Status 403,403,com
+2025-07-12 15:26:23,https://xprobit.com,Not Alive,Error,com
+2025-07-12 15:26:23,https://xraize.com,Not Alive,Error,com
+2025-07-12 15:26:24,https://xtapbit.com,Not Alive,Error,com
+2025-07-12 15:26:24,https://xvairo.com,Not Alive,Error,com
+2025-07-12 15:26:25,https://xzors.com,Status 403,403,com
+2025-07-12 15:26:25,https://zmorax.com,Status 403,403,com
+2025-07-12 15:26:26,https://wcgdeposits.com/index.php?lang=en,Not Alive,Error,com
+2025-07-12 15:26:27,https://wcgeconomic.com,Not Alive,Error,com
+2025-07-12 15:26:27,https://wcgeconomic.com/index.php?lang=en,Not Alive,Error,com
+2025-07-12 15:26:28,https://user.verbofx.com/member/login/view,Not Alive,Error,com
+2025-07-12 15:26:28,https://verbo-fx.com,Not Alive,Error,com
+2025-07-12 15:26:29,https://verbo-fx.com/index.php?lang=en,Not Alive,Error,com
+2025-07-12 15:26:29,https://verbo-market.com,Not Alive,Error,com
+2025-07-12 15:26:31,https://junshengfx.club,Alive,200,club
+2025-07-12 15:26:32,https://zi-mining.com,Not Alive,Error,com
+2025-07-12 15:26:34,https://MoomooInvestment.com,Alive,200,com
+2025-07-12 15:26:34,https://247-smartfactory.com,Status 403,403,com
+2025-07-12 15:26:36,https://Xbackoffice.myxpro.app,Status 500,500,app
+2025-07-12 15:26:37,https://aaaxmglomarkets.com,Not Alive,Error,com
+2025-07-12 15:26:42,https://catradeteinc.com,Not Alive,Error,com
+2025-07-12 15:26:43,https://trademate.pro,Not Alive,Error,pro
+2025-07-12 15:26:43,https://tradematemx.com,Not Alive,Error,com
+2025-07-12 15:26:44,https://straitsfx.com,Not Alive,Error,com
+2025-07-12 15:26:45,https://pcssgapro.glennallan.com,Alive,200,com
+2025-07-12 15:26:45,https://sknfx.net,Not Alive,Error,net
+2025-07-12 15:26:46,https://sstraderltd.com,Not Alive,Error,com
+2025-07-12 15:26:47,https://shtne.vip,Not Alive,Error,vip
+2025-07-12 15:26:47,https://saxobankasia.com,Not Alive,Error,com
+2025-07-12 15:26:48,https://yqanyse.com,Not Alive,Error,com
+2025-07-12 15:26:48,https://yqenyse.com,Not Alive,Error,com
+2025-07-12 15:26:49,https://neonskyfx.com,Not Alive,Error,com
+2025-07-12 15:26:49,https://madcuifcgroup.com,Not Alive,Error,com
+2025-07-12 15:26:50,https://libertyfxltd.com,Not Alive,Error,com
+2025-07-12 15:26:50,https://kmaicc.xyz,Not Alive,Error,xyz
+2025-07-12 15:26:51,https://mt5pro.vip,Not Alive,Error,vip
+2025-07-12 15:26:51,https://marketsinter.com,Not Alive,Error,com
+2025-07-12 15:26:52,http://webmail.gffxx.com,Not Alive,Error,com
+2025-07-12 15:26:52,https://fuwafx.com,Not Alive,Error,com
+2025-07-12 15:26:53,https://firephoenixig.com,Not Alive,Error,com
+2025-07-12 15:26:53,https://firephoenixin.com,Not Alive,Error,com
+2025-07-12 15:26:54,https://firephoenixit.com,Not Alive,Error,com
+2025-07-12 15:26:55,https://metatrade5il.com,Not Alive,Error,com
+2025-07-12 15:26:55,https://metatrade5it.com,Not Alive,Error,com
+2025-07-12 15:26:56,https://metatrade5pro.com,Not Alive,Error,com
+2025-07-12 15:26:56,https://dtx-markets.com,Not Alive,Error,com
+2025-07-12 15:26:57,https://dbgmarkentskinlted.com,Not Alive,Error,com
+2025-07-12 15:26:57,https://comcfx.com,Not Alive,Error,com
+2025-07-12 15:26:58,https://comeafx.com,Not Alive,Error,com
+2025-07-12 15:27:00,https://capitalmanager.net,Not Alive,Error,net
+2025-07-12 15:27:01,https://tradercgmarkets.com,Not Alive,Error,com
+2025-07-12 15:27:01,https://bitcecoin.com,Not Alive,Error,com
+2025-07-12 15:27:02,https://baazexfx.com,Not Alive,Error,com
+2025-07-12 15:27:03,https://atfxgoldvip.cc,Not Alive,Error,cc
+2025-07-12 15:27:03,https://ancetd.com,Not Alive,Error,com
+2025-07-12 15:27:04,https://gaitameonlinefx.com,Alive,200,com
+2025-07-12 15:27:04,https://coyken.com,Not Alive,Error,com
+2025-07-12 15:27:05,https://www.alpha-eths.com,Not Alive,Error,com
+2025-07-12 15:27:11,https://www.alphas-eths.com,Not Alive,Error,com
+2025-07-12 15:27:17,https://www.alppha-eth.com,Not Alive,Error,com
+2025-07-12 15:27:17,https://www.appes-online.com,Not Alive,Error,com
+2025-07-12 15:27:18,https://www.copperint.top,Not Alive,Error,top
+2025-07-12 15:27:25,https://www.ic-market.co,Not Alive,Error,co
+2025-07-12 15:27:26,https://www.icint24.com,Not Alive,Error,com
+2025-07-12 15:27:26,https://www.icintapp.com,Not Alive,Error,com
+2025-07-12 15:27:27,https://www.icmarketglobalpro.com,Not Alive,Error,com
+2025-07-12 15:27:27,https://www.kcex-btc.com,Not Alive,Error,com
+2025-07-12 15:27:28,https://www.thecopperint.com,Not Alive,Error,com
+2025-07-12 15:27:29,https://www.whallefin-btc.com,Alive,200,com
+2025-07-12 15:27:30,https://www.allpha-btc.com,Not Alive,Error,com
+2025-07-12 15:27:30,https://www.allpha-eth.com,Not Alive,Error,com
+2025-07-12 15:27:32,https://www.ptounxd.com/;,Status 403,403,com
+2025-07-12 15:27:32,https://www.ptounxxm.com/;,Not Alive,Error,com
+2025-07-12 15:27:38,https://optcoin.com,Not Alive,Error,com
+2025-07-12 15:27:39,https://optcoin.pro,Alive,200,pro
+2025-07-12 15:27:39,https://optcoin1.com,Not Alive,Error,com
+2025-07-12 15:27:40,https://optcoin12.com,Not Alive,Error,com
+2025-07-12 15:27:40,https://optcoin13.com,Not Alive,Error,com
+2025-07-12 15:27:41,https://optcoin15.com,Not Alive,Error,com
+2025-07-12 15:27:41,https://optcoin2.com,Not Alive,Error,com
+2025-07-12 15:27:42,https://optcoin21.com,Not Alive,Error,com
+2025-07-12 15:27:43,https://optcoin22.com,Not Alive,Error,com
+2025-07-12 15:27:43,https://optcoin23.com,Not Alive,Error,com
+2025-07-12 15:27:44,https://optcoin25.com,Not Alive,Error,com
+2025-07-12 15:27:44,https://optcoin36.com,Not Alive,Error,com
+2025-07-12 15:27:45,https://optcoin4.com,Not Alive,Error,com
+2025-07-12 15:27:45,https://optcoin5.com,Not Alive,Error,com
+2025-07-12 15:27:46,https://optcoin51.com,Not Alive,Error,com
+2025-07-12 15:27:46,https://optcoin53.com,Not Alive,Error,com
+2025-07-12 15:27:47,https://optcoin54.com,Not Alive,Error,com
+2025-07-12 15:27:48,https://optcoin55.com,Not Alive,Error,com
+2025-07-12 15:27:48,https://optcoin56.com,Not Alive,Error,com
+2025-07-12 15:27:49,https://optcoin61.com,Not Alive,Error,com
+2025-07-12 15:27:49,https://optcoin63.com,Not Alive,Error,com
+2025-07-12 15:27:50,https://optcoin64.com,Not Alive,Error,com
+2025-07-12 15:27:50,https://optcoin65.com,Not Alive,Error,com
+2025-07-12 15:27:51,https://optcoin8.com,Not Alive,Error,com
+2025-07-12 15:27:51,https://optcoin9.com,Not Alive,Error,com
+2025-07-12 15:27:52,https://optcoinap.com,Not Alive,Error,com
+2025-07-12 15:27:53,https://optcoinwk.com,Not Alive,Error,com
+2025-07-12 15:27:53,https://optcoinwp.com,Not Alive,Error,com
+2025-07-12 15:27:54,https://globalminingfxtrades.com,Not Alive,Error,com
+2025-07-12 15:27:54,https://pcex.bet,Not Alive,Error,bet
+2025-07-12 15:27:55,https://pcex.fun,Not Alive,Error,fun
+2025-07-12 15:27:55,https://pcex.one,Not Alive,Error,one
+2025-07-12 15:27:56,https://pcex.org,Not Alive,Error,org
+2025-07-12 15:27:56,https://pcex.pro,Not Alive,Error,pro
+2025-07-12 15:27:57,https://pcex.xyz,Not Alive,Error,xyz
+2025-07-12 15:27:57,https://pcex11.com,Not Alive,Error,com
+2025-07-12 15:27:58,https://pcex12.com,Not Alive,Error,com
+2025-07-12 15:27:59,https://pcex19.com,Not Alive,Error,com
+2025-07-12 15:27:59,https://pcex21.com,Not Alive,Error,com
+2025-07-12 15:28:00,https://pcex23.com,Not Alive,Error,com
+2025-07-12 15:28:00,https://pcex28.com,Not Alive,Error,com
+2025-07-12 15:28:01,https://pcex29.com,Not Alive,Error,com
+2025-07-12 15:28:02,https://pcexak.com,Not Alive,Error,com
+2025-07-12 15:28:02,https://pcexapa.com,Not Alive,Error,com
+2025-07-12 15:28:03,https://pcexapa.net,Not Alive,Error,net
+2025-07-12 15:28:03,https://pcexdk.com,Not Alive,Error,com
+2025-07-12 15:28:04,https://pcexkk.com,Not Alive,Error,com
+2025-07-12 15:28:04,https://pcexpk.com,Not Alive,Error,com
+2025-07-12 15:28:05,https://pcexpv.com,Not Alive,Error,com
+2025-07-12 15:28:05,https://pcexpy.com,Not Alive,Error,com
+2025-07-12 15:28:06,https://pcexq.com,Not Alive,Error,com
+2025-07-12 15:28:07,https://pcexqp.com,Not Alive,Error,com
+2025-07-12 15:28:07,https://pcexwk.com,Not Alive,Error,com
+2025-07-12 15:28:08,https://uicex1.com,Not Alive,Error,com
+2025-07-12 15:28:08,https://uicex11.com,Not Alive,Error,com
+2025-07-12 15:28:09,https://uicex12.com,Not Alive,Error,com
+2025-07-12 15:28:09,https://uicex13.com,Not Alive,Error,com
+2025-07-12 15:28:10,https://uicex2.com,Not Alive,Error,com
+2025-07-12 15:28:11,https://uicex3.com,Not Alive,Error,com
+2025-07-12 15:28:11,https://uicexio.com,Not Alive,Error,com
+2025-07-12 15:28:12,https://uzex1.com,Not Alive,Error,com
+2025-07-12 15:28:12,https://uzex11.com,Not Alive,Error,com
+2025-07-12 15:28:13,https://uzex14.com,Not Alive,Error,com
+2025-07-12 15:28:14,https://uzex3.com,Not Alive,Error,com
+2025-07-12 15:28:14,https://uzexag.com,Not Alive,Error,com
+2025-07-12 15:28:15,https://grokr-coin.com,Not Alive,Error,com
+2025-07-12 15:28:15,https://grokr-lss.com,Not Alive,Error,com
+2025-07-12 15:28:16,https://grokr-lssc.com,Alive,200,com
+2025-07-12 15:28:16,https://grokrbeef.com,Not Alive,Error,com
+2025-07-12 15:28:17,https://grokrc66.com,Not Alive,Error,com
+2025-07-12 15:28:18,https://grokrco.com,Not Alive,Error,com
+2025-07-12 15:28:18,https://grokrcooko.com,Not Alive,Error,com
+2025-07-12 15:28:19,https://grokrexkk.com,Not Alive,Error,com
+2025-07-12 15:28:19,https://grokrexooc.com,Not Alive,Error,com
+2025-07-12 15:28:20,https://grokrexssci.com,Not Alive,Error,com
+2025-07-12 15:28:20,https://grokrforcc.com,Not Alive,Error,com
+2025-07-12 15:28:21,https://grokrlss.com,Not Alive,Error,com
+2025-07-12 15:28:21,https://grokrsoll.com,Not Alive,Error,com
+2025-07-12 15:28:22,https://growsub.com,Not Alive,Error,com
+2025-07-12 15:28:23,https://68ea-idn.com,Alive,200,com
+2025-07-12 15:28:24,https://68ea-mys.com,Alive,200,com
+2025-07-12 15:28:24,https://68ea-us.com,Alive,200,com
+2025-07-12 15:28:26,https://68ea.app,Alive,200,app
+2025-07-12 15:28:27,https://68ea02.com,Alive,200,com
+2025-07-12 15:28:27,https://68ea1.com,Alive,200,com
+2025-07-12 15:28:28,https://68ea2.com,Alive,200,com
+2025-07-12 15:28:29,https://68ea3.com,Alive,200,com
+2025-07-12 15:28:29,https://68eamys.com,Alive,200,com
+2025-07-12 15:28:30,https://68eaus.com,Alive,200,com
+2025-07-12 15:28:31,https://riscoin.me,Not Alive,Error,me
+2025-07-12 15:28:32,https://riscoin.net,Not Alive,Error,net
+2025-07-12 15:28:32,https://riscoin.shop,Not Alive,Error,shop
+2025-07-12 15:28:33,https://riscoin8.com,Not Alive,Error,com
+2025-07-12 15:28:34,https://v-seagull.com,Not Alive,Error,com
+2025-07-12 15:28:34,https://dsj33.com,Alive,200,com
+2025-07-12 15:28:35,https://dsj8.com,Alive,200,com
+2025-07-12 15:28:36,https://dsj96.com,Not Alive,Error,com
+2025-07-12 15:28:36,https://dsjads.com,Not Alive,Error,com
+2025-07-12 15:28:37,https://dsjex.net,Alive,200,net
+2025-07-12 15:28:37,https://dsjex.pro,Not Alive,Error,pro
+2025-07-12 15:28:38,https://dsjex.shop,Not Alive,Error,shop
+2025-07-12 15:28:38,https://dsjex.xyz,Not Alive,Error,xyz
+2025-07-12 15:28:39,https://dsjex112.com,Alive,200,com
+2025-07-12 15:28:40,https://dsjex321.com,Alive,200,com
+2025-07-12 15:28:40,https://dsjex369.com,Alive,200,com
+2025-07-12 15:28:41,https://dsjex66.site,Not Alive,Error,site
+2025-07-12 15:28:42,https://dsjex789.com,Alive,200,com
+2025-07-12 15:28:42,https://dsjex88.blog,Not Alive,Error,blog
+2025-07-12 15:28:43,https://dsjex998.com,Alive,200,com
+2025-07-12 15:28:43,https://dsjqq.com,Alive,200,com
+2025-07-12 15:28:44,https://dsjvv.com,Alive,200,com
+2025-07-12 15:28:45,https://cbex-dex.com,Not Alive,Error,com
+2025-07-12 15:28:45,https://cbex.cx,Not Alive,Error,cx
+2025-07-12 15:28:46,https://cbex.lol,Not Alive,Error,lol
+2025-07-12 15:28:46,https://cbex28.com,Not Alive,Error,com
+2025-07-12 15:28:47,https://cbex3.com,Not Alive,Error,com
+2025-07-12 15:28:48,https://cbex38.com,Not Alive,Error,com
+2025-07-12 15:28:48,https://cbex39.com,Not Alive,Error,com
+2025-07-12 15:28:49,https://cbex53.com,Not Alive,Error,com
+2025-07-12 15:28:49,https://cbex58.com,Not Alive,Error,com
+2025-07-12 15:28:50,https://cbex69.com,Not Alive,Error,com
+2025-07-12 15:28:51,https://cbexe.com,Not Alive,Error,com
+2025-07-12 15:28:51,https://cbexo.com,Not Alive,Error,com
+2025-07-12 15:28:52,https://cbextp.com,Not Alive,Error,com
+2025-07-12 15:28:52,https://ijex.bet,Not Alive,Error,bet
+2025-07-12 15:28:56,https://ijex.com,Not Alive,Error,com
+2025-07-12 15:28:57,https://ijex.pro,Not Alive,Error,pro
+2025-07-12 15:28:57,https://ijex15.com,Not Alive,Error,com
+2025-07-12 15:28:58,https://ijex35.com,Not Alive,Error,com
+2025-07-12 15:28:58,https://ijex38.com,Not Alive,Error,com
+2025-07-12 15:28:59,https://ijex51.com,Not Alive,Error,com
+2025-07-12 15:28:59,https://ijex53.com,Not Alive,Error,com
+2025-07-12 15:29:00,https://ijex55.com,Not Alive,Error,com
+2025-07-12 15:29:00,https://ijex56.com,Not Alive,Error,com
+2025-07-12 15:29:01,https://ijex63.com,Not Alive,Error,com
+2025-07-12 15:29:02,https://ijex9.com,Not Alive,Error,com
+2025-07-12 15:29:02,https://ijexcp.com,Not Alive,Error,com
+2025-07-12 15:29:03,https://ijexdk.com,Not Alive,Error,com
+2025-07-12 15:29:03,https://ijexp.com,Not Alive,Error,com
+2025-07-12 15:29:04,https://ijexpa.com,Not Alive,Error,com
+2025-07-12 15:29:04,https://ijexpe.com,Not Alive,Error,com
+2025-07-12 15:29:05,https://ijexpv.com,Not Alive,Error,com
+2025-07-12 15:29:06,https://ijexpy.com,Not Alive,Error,com
+2025-07-12 15:29:06,https://ijexqa.com,Not Alive,Error,com
+2025-07-12 15:29:07,https://ijexqp.com,Not Alive,Error,com
+2025-07-12 15:29:07,https://ijexw.com,Not Alive,Error,com
+2025-07-12 15:29:08,https://txex-usa.com,Not Alive,Error,com
+2025-07-12 15:29:08,https://txex.fun,Not Alive,Error,fun
+2025-07-12 15:29:09,https://txex.live,Not Alive,Error,live
+2025-07-12 15:29:10,https://txex.lol,Not Alive,Error,lol
+2025-07-12 15:29:10,https://txex.nl,Not Alive,Error,nl
+2025-07-12 15:29:11,https://txex.one,Alive,200,one
+2025-07-12 15:29:11,https://txex.ws,Status 403,403,ws
+2025-07-12 15:29:12,https://txex1.com,Not Alive,Error,com
+2025-07-12 15:29:13,https://txex11.com,Not Alive,Error,com
+2025-07-12 15:29:13,https://txex12.com,Not Alive,Error,com
+2025-07-12 15:29:14,https://txex13.com,Not Alive,Error,com
+2025-07-12 15:29:14,https://txex15.com,Not Alive,Error,com
+2025-07-12 15:29:15,https://txex16.com,Not Alive,Error,com
+2025-07-12 15:29:15,https://txex2.com,Not Alive,Error,com
+2025-07-12 15:29:16,https://txex22.com,Not Alive,Error,com
+2025-07-12 15:29:16,https://txex23.com,Not Alive,Error,com
+2025-07-12 15:29:17,https://txex25.com,Not Alive,Error,com
+2025-07-12 15:29:18,https://txex26.com,Not Alive,Error,com
+2025-07-12 15:29:18,https://txex3.com,Not Alive,Error,com
+2025-07-12 15:29:19,https://txex31.com,Not Alive,Error,com
+2025-07-12 15:29:19,https://txex32.com,Not Alive,Error,com
+2025-07-12 15:29:20,https://txex33.com,Not Alive,Error,com
+2025-07-12 15:29:20,https://txex35.com,Not Alive,Error,com
+2025-07-12 15:29:21,https://txex36.com,Not Alive,Error,com
+2025-07-12 15:29:22,https://txex5.com,Not Alive,Error,com
+2025-07-12 15:29:22,https://txex6.com,Not Alive,Error,com
+2025-07-12 15:29:23,https://txex7.com,Not Alive,Error,com
+2025-07-12 15:29:23,https://txex8.com,Not Alive,Error,com
+2025-07-12 15:29:24,https://txex9.com,Not Alive,Error,com
+2025-07-12 15:29:24,https://txexad.com,Not Alive,Error,com
+2025-07-12 15:29:25,https://txexap.com,Not Alive,Error,com
+2025-07-12 15:29:25,https://txexs.com,Not Alive,Error,com
+2025-07-12 15:29:26,https://txhout.com,Not Alive,Error,com
+2025-07-12 15:29:28,https://blockhiveinvestment.com,Alive,200,com
+2025-07-12 15:29:30,https://ipoalerts.pro,Alive,200,pro
+2025-07-12 15:29:31,https://ipoalertspro.com,Alive,200,com
+2025-07-12 15:29:43,https://orbitipo.com,Not Alive,Error,com
+2025-07-12 15:29:45,https://orbittrades.com,Alive,200,com
+2025-07-12 15:29:56,https://satellitestocks.com,Not Alive,Error,com
+2025-07-12 15:29:58,https://techgrowthinvest.com,Alive,200,com
+2025-07-12 15:30:00,https://top5investinsider.com,Alive,200,com
+2025-07-12 15:30:00,https://backchain.co.uk,Not Alive,Error,co.uk
+2025-07-12 15:30:01,https://cfar.io,Not Alive,Error,io
+2025-07-12 15:30:02,https://frsclaim.com,Not Alive,Error,com
+2025-07-12 15:30:02,https://spisolutions.org,Not Alive,Error,org

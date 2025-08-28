@@ -482,7 +482,7 @@ def generate_html_dashboard(analysis_dir, output_html="analysis_dashboard.html")
     </style>
     </head>
     <body>
-    <h2>📊 Automated Forensic Analysis Dashboard</h2>
+    <h2>Automated Forensic Analysis Dashboard</h2>
     <p>Last updated: <b>{}</b></p>
     <p>
       <a class="section-link" href="#filetypes">File Types</a>
@@ -521,8 +521,10 @@ def generate_html_dashboard(analysis_dir, output_html="analysis_dashboard.html")
     print(f"HTML dashboard generated: {outpath}")
 
 def folder_analysis_httrack(root_folder, analysis_dir):
-    base_folder_name = root_folder.name
-    project_folder = root_folder / base_folder_name
+    from pathlib import Path
+    # Accept either str or Path for root_folder and analyze the root directly
+    root_folder = Path(root_folder)
+    project_folder = root_folder
     if not os.path.isdir(project_folder):
         print(f"[ERROR] Project folder not found: {project_folder}")
         return
@@ -598,25 +600,25 @@ def fetch_and_mirror_wayback():
     wayback_urls_file = os.path.join(wayback_folder, "wayback_urls.txt")
 
     if os.path.exists(wayback_urls_file):
-        print(f"🔁 Found existing wayback_urls.txt ({wayback_urls_file}). Starting mirroring...")
+        print(f"Found existing wayback_urls.txt ({wayback_urls_file}). Starting mirroring...")
         mirror_with_waybackpack(wayback_urls_file, wayback_folder)
         return
 
-    print("🆕 wayback_urls.txt not found. Generating Wayback URLs from dead sites...")
+    print("wayback_urls.txt not found. Generating Wayback URLs from dead sites...")
 
     # Step 1: Find latest liveness check CSV
     csv_files = [f for f in os.listdir(liveness_folder) if f.endswith('.csv')]
     if not csv_files:
-        raise Exception("⚠️ No CSV files found in liveness_check folder.")
+        raise Exception("No CSV files found in liveness_check folder.")
 
     latest_file = max(csv_files, key=lambda x: os.path.getmtime(os.path.join(liveness_folder, x)))
     ping_file = os.path.join(liveness_folder, latest_file)
-    print(f"🔽 Using latest liveness check file: {ping_file}")
+    print(f"Using latest liveness check file: {ping_file}")
 
     # Step 2: Filter dead URLs
     df = pd.read_csv(ping_file)
     if "Status" not in df.columns:
-        raise Exception("⚠️ 'Status' column not found in the CSV file.")
+        raise Exception("'Status' column not found in the CSV file.")
 
     dead_df = df[df["Status"].apply(lambda x: str(x).lower() != "alive" and str(x) != "200" and str(x) != "0")]
     snapshot_urls = []
@@ -625,7 +627,7 @@ def fetch_and_mirror_wayback():
     # Step 3: Query Wayback for each dead URL
     for url in dead_df["URL"]:
         checked_count += 1
-        print(f"🔍 ({checked_count}/{len(dead_df)}) Checking Wayback for: {url}")
+        print(f"({checked_count}/{len(dead_df)}) Checking Wayback for: {url}")
         api = "http://archive.org/wayback/available"
         params = {"url": url}
         try:
@@ -634,12 +636,12 @@ def fetch_and_mirror_wayback():
             archived_snap = data.get("archived_snapshots", {})
             if "closest" in archived_snap:
                 snapshot = archived_snap["closest"]["url"]
-                print(f"🕑 Snapshot found: {snapshot}")
+                print(f"Snapshot found: {snapshot}")
                 snapshot_urls.append(snapshot)
             else:
-                print(f"⚠️ No snapshot found for: {url}")
+                print(f"No snapshot found for: {url}")
         except Exception as e:
-            print(f"❌ Error checking Wayback for {url}: {e}")
+            print(f"Error checking Wayback for {url}: {e}")
         time.sleep(0.5)  # Gentle throttling
 
 
@@ -648,10 +650,10 @@ def fetch_and_mirror_wayback():
         with open(wayback_urls_file, "w") as f:
             for url in snapshot_urls:
                 f.write(url + "\n")
-        print(f"✅ {len(snapshot_urls)} Wayback URLs saved to {wayback_urls_file}")
+        print(f"{len(snapshot_urls)} Wayback URLs saved to {wayback_urls_file}")
         mirror_with_waybackpack(wayback_urls_file, wayback_folder)
     else:
-        print("⚠️ No Wayback URLs to mirror.")
+        print("No Wayback URLs to mirror.")
 def mirror_dead_with_wayback(dead_urls_file, wayback_folder):
     # Query Wayback API for each dead URL and save the closest snapshot URLs
     snapshot_urls = []
@@ -674,11 +676,11 @@ def mirror_dead_with_wayback(dead_urls_file, wayback_folder):
     with open(wayback_urls_txt, "w") as f:
         for s in snapshot_urls:
             f.write(s + "\n")
-    print(f"✅ {len(snapshot_urls)} Wayback snapshot URLs written to {wayback_urls_txt}")
+    print(f"{len(snapshot_urls)} Wayback snapshot URLs written to {wayback_urls_txt}")
     if snapshot_urls:
         mirror_with_waybackpack(wayback_urls_txt, wayback_folder)
     else:
-        print("⚠️ No Wayback snapshots to mirror.")
+        print("No Wayback snapshots to mirror.")
 
 
 def mirror_with_waybackpack(urls_file, output_folder):
@@ -696,7 +698,7 @@ def mirror_with_waybackpack(urls_file, output_folder):
                 waybackpack_path = loc
                 break
     if waybackpack_path is None:
-        print("❌ waybackpack.exe not found! Please check your installation or add it to PATH.")
+        print("waybackpack.exe not found! Please check your installation or add it to PATH.")
         return
 
     with open(urls_file, "r") as f:
@@ -707,7 +709,7 @@ def mirror_with_waybackpack(urls_file, output_folder):
             # Parse: http(s)://web.archive.org/web/20240501043346/https://uicex2.com/
             parts = snapshot_url.split("/")
             if len(parts) < 6 or not parts[4].isdigit():
-                print(f"❌ Invalid archive URL: {snapshot_url}")
+                print(f"Invalid archive URL: {snapshot_url}")
                 continue
             ts = parts[4]  # e.g. 20240501043346
             orig_url = snapshot_url.split("/", 5)[-1]  # preserve protocol
@@ -718,7 +720,7 @@ def mirror_with_waybackpack(urls_file, output_folder):
             site_folder = os.path.join(output_folder, f"{domain}_{ts}")
             os.makedirs(site_folder, exist_ok=True)
 
-            print(f"📥 Downloading snapshot {ts} for {orig_url} ...")
+            print(f"Downloading snapshot {ts} for {orig_url} ...")
             # No --uniques-only or --collapse
             cmd = [
                 waybackpack_path,
@@ -734,14 +736,14 @@ def mirror_with_waybackpack(urls_file, output_folder):
                 with open(os.path.join(site_folder, "waybackpack.log"), "w", encoding="utf-8") as logf:
                     logf.write(result.stdout + "\n" + result.stderr)
                 if result.returncode == 0:
-                    print(f"✅ Downloaded {orig_url} [{ts}]")
+                    print(f"Downloaded {orig_url} [{ts}]")
                 else:
-                    print(f"❌ Failed to download {orig_url} [{ts}]\n{result.stderr}")
+                    print(f"Failed to download {orig_url} [{ts}]\n{result.stderr}")
             except subprocess.TimeoutExpired:
-                print(f"⏳ Timeout expired for {orig_url} [{ts}] (skipped)")
+                print(f"Timeout expired for {orig_url} [{ts}] (skipped)")
 
         except Exception as e:
-            print(f"❌ Error processing {snapshot_url} - {e}")
+            print(f"Error processing {snapshot_url} - {e}")
 
 
 #Functions for mirroring
@@ -758,7 +760,7 @@ def ensure_folder(path):
     return path
 
 def iosco_fetch(base_folder):
-    print("🔽 Fetching IOSCO CSV...")
+    print("Fetching IOSCO CSV...")
     csv_url = "https://www.iosco.org/i-scan/?export-to-csv&SUBSECTION=main&NCA_ID=64"
     today = datetime.now().strftime("%Y-%m-%d")
 
@@ -790,11 +792,11 @@ def iosco_fetch(base_folder):
     url_df = pd.DataFrame(urls, columns=["URL"])
     url_df.to_csv(clean_file, index=False)
 
-    print(f"✅ IOSCO Fetch Complete: {len(url_df)} URLs saved to {clean_file}")
+    print(f"IOSCO Fetch Complete: {len(url_df)} URLs saved to {clean_file}")
     return clean_file
 
 def ping_urls(input_file, base_folder):
-    print("🔎 Starting URL liveness check...")
+    print("Starting URL liveness check...")
 
     today = datetime.now().strftime("%Y-%m-%d")
     liveness_folder = ensure_folder(os.path.join(base_folder, "liveness_check"))
@@ -829,7 +831,7 @@ def ping_urls(input_file, base_folder):
     ping_df = pd.DataFrame(results)
     ping_df.to_csv(output_file, index=False)
 
-    print(f"✅ Liveness check complete: Results saved to {output_file}")
+    print(f"Liveness check complete: Results saved to {output_file}")
     return output_file
 
 def filter_alive_urls(ping_file, today_folder):
@@ -837,7 +839,7 @@ def filter_alive_urls(ping_file, today_folder):
     alive_df = df[df["Status"] == "Alive"]
     alive_urls_file = os.path.join(today_folder, "alive_urls.txt")
     alive_df["URL"].to_csv(alive_urls_file, index=False, header=False)
-    print(f"✅ {len(alive_df)} Alive URLs saved to {alive_urls_file}")
+    print(f"{len(alive_df)} Alive URLs saved to {alive_urls_file}")
     return alive_urls_file
 
 def filter_dead_urls(ping_file, today_folder):
@@ -845,7 +847,7 @@ def filter_dead_urls(ping_file, today_folder):
     dead_df = df[df["Status"].apply(lambda x: str(x).lower() != "alive")]
     dead_urls_file = os.path.join(today_folder, "dead_urls.txt")
     dead_df["URL"].to_csv(dead_urls_file, index=False, header=False)
-    print(f"✅ {len(dead_df)} Dead URLs saved to {dead_urls_file}")
+    print(f"  {len(dead_df)} Dead URLs saved to {dead_urls_file}")
     return dead_urls_file
 
 
@@ -853,12 +855,12 @@ def create_today_folder(base_folder):
     today_str = datetime.now().strftime("%d_%m_%Y")
     folder_path = os.path.join(base_folder, today_str)
     os.makedirs(folder_path, exist_ok=True)
-    print(f"📁 Created folder: {folder_path}")
+    print(f"Created folder: {folder_path}")
     return folder_path
 
 def run_httrack(urls_file, project_folder):
     if not os.path.exists(urls_file):
-        print("⚠️ URLs file not found.")
+        print("URLs file not found.")
         return
 
     httrack_exe = r'"C:\Program Files\WinHTTrack\httrack.exe"'
@@ -867,7 +869,7 @@ def run_httrack(urls_file, project_folder):
     with open(urls_file, "r", encoding="utf-8") as f:
         urls = [line.strip() for line in f if line.strip()]
 
-    print(f"▶️ Mirroring {len(urls)} sites individually for proper folder structure...")
+    print(f"Mirroring {len(urls)} sites individually for proper folder structure...")
     for idx, url in enumerate(urls, 1):
         # Extract a safe folder name from the domain
         domain = url.replace('http://', '').replace('https://', '').split('/')[0]
@@ -882,7 +884,7 @@ def run_httrack(urls_file, project_folder):
         print(f"[{idx}/{len(urls)}] Mirroring: {url} -> {out_folder}")
         subprocess.run(cmd, shell=True)
 
-    print("✅ All websites mirrored into individual folders.")
+    print("  All websites mirrored into individual folders.")
 
 
 # --- Main Execution ---
@@ -947,7 +949,7 @@ def main():
     generate_html_dashboard(analysis_dir_wayback)
     folder_analysis_httrack(wayback_folder, analysis_dir_wayback)
 
-    print("🎉 All done!")
+    print("All done!")
 
 if __name__ == "__main__":
     main()

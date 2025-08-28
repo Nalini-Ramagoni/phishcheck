@@ -1,0 +1,7 @@
+# Python dependencies for automirror.py/automirror_final.py
+pandas
+requests
+tldextract
+openpyxl
+# CLI tool installed via pip; provides the `waybackpack` command used by the script
+waybackpack
